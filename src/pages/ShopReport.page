@@ -1,0 +1,191 @@
+<apex:page standardController="opportunity" showHeader="false" renderAs="pdf"  standardStylesheets="false" sidebar="false" applyHtmlTag="false"
+    applyBodyTag="false" docType="html-5.0" >
+   
+ <head>
+     
+     
+     
+    </head>
+    
+    <header>
+        <article></article>
+        <div>
+            
+        
+   
+     <apex:image style="logo1" url="{!$Resource.UpdatedLogo}"  />
+
+        
+       <h2  Style="float:right;margin-top:18px; font-family: Helvetica, Arial, Sans-Serif;color: #16325c;text-transform: uppercase;"> Shop Report </h2>
+            </div>
+    <hr style="border-top: none; border-bottom: 9px solid #E31936 !important;"/>
+    </header>
+    
+        
+    <body>
+       
+        
+  <div Style="width:100%;">
+    <div style="float:left;width:30%;" >
+       <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Work Order# 
+        </div>
+           <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px; ">{! Opportunity.Work_Order__c} 
+        </div>
+        
+        
+      <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Company Name </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Account.Name),'\\\n','<br />')}"  escape="false"/>  </div>
+        
+         <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Unit </div>
+      <div style="width: 100% ">
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px; "> <apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Unit__c),'\\\n','<br />')}"  escape="false"/>
+  </div></div>
+      
+      <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Serial Number</div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Serial__c),'\\\n','<br />')}"  escape="false"/>  </div>
+      
+       <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Litco Contact</div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputPanel >
+        
+        {!Opportunity.Litco_Contact_Drop_Down__c}
+                          </apex:outputPanel>  </div>
+                          
+                          <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Litco Technician   </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> {!Opportunity.Technician_Drop_Down__c}
+       
+      
+       </div>
+       
+       <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Warranty </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputfield value="{! Opportunity.Warranty__c}"/> </div>
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Original Warranty Date </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputfield value="{! Opportunity.Original_Warranty_Date__c}"/> </div>
+       
+       
+      
+          
+          
+      
+      
+     
+              
+    </div>
+    <div style="float:left;width:30%;margin-left:8%;">
+      
+       
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Date Entered </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> <apex:outputText value="{0,date,MM/dd/yy}"> 
+          <apex:param value="{!Opportunity.Date_Entered__c}" /> </apex:outputText>   </div>
+          
+          <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Customer PO</div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Customer_PO__c),'\\\n','<br />')}"  escape="false"/>  </div>
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Quoted Price </div>
+       <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> <apex:outputText value="{0, Number, Currency}" > 
+          <apex:param value="{!Opportunity.Amount}" />
+            </apex:outputText></div>
+         
+        
+      
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Date Quoted</div>
+        
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;">  <apex:outputText value="{0,date,MM/dd/yy}"> 
+          <apex:param value="{! Opportunity.Date_Quoted__c}" /> </apex:outputText>   </div>
+          
+          <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Date Shipped </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputText value="{0,date,MM/dd/yy}"> 
+          <apex:param value="{!Opportunity.Date_Shipped__c}" /> </apex:outputText>   </div>
+      
+          
+          
+       <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  How Shipped  </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> {!Opportunity.How_Shipped_Drop_box__c}
+       
+      
+        </div>
+        
+         <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">  Drop Ship </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputfield value="{!Opportunity.Drop_Ship__c}"/> </div>
+         
+        
+        </div>         
+       <div Style="float:right;width:30%;">
+       
+               
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Approved By </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputfield value="{! Opportunity.Approved_By__c}"/> </div>
+        
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Shipped </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> <apex:outputfield value="{! Opportunity.Shipped__c}"/> </div>
+        
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Completed </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> <apex:outputfield value="{! Opportunity.Completed__c}"/> </div>
+        
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Repair/Sale</div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;">  {!Opportunity.Repair_Sale_Wrnty__c}</div>
+       
+         <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> End User/Re Seller </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"><apex:outputfield value="{! Opportunity.End_user_or_Reseller__c}"/> </div>
+      
+       
+       
+       </div>
+        
+                    
+        
+    
+</div>
+
+<div Style="clear:both;">
+</div>
+<br/>
+        
+        
+      <div style="margin-top:5px;"> 
+          
+          
+         <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Acessories  </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> 
+        <apex:outputText escape="false"  value="{! Opportunity.Accessories__c}"/> </div>
+          
+           <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Comments  </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> 
+        <apex:outputText escape="false"  value="{! Opportunity.Comments__c}"/> </div>
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Shop Notes  </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> 
+        <apex:outputText escape="false"  value="{! Opportunity.Shop_Notes__c}"/> </div>
+
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Evaluation  </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> 
+        <apex:outputText escape="false"  value="{! Opportunity.Evaluation__c}"/> </div>
+        
+        
+        
+        <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Evaluated By  </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> 
+        <apex:outputPanel >{!Opportunity.Evaluated_By_Drop_Down__c} </apex:outputPanel> </div>
+        
+           <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;">   Evaluated Date </div>
+      <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;"> <apex:outputText value="{0,date,MM/dd/yy}"> 
+          <apex:param value="{!Opportunity.Evaluated_Date__c}" /> </apex:outputText>   </div>
+       
+        
+        
+      <div Style="line-height: 1.5;color: #16325c; -webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 10px;font-size: 13px;"> Evaluation Status </div>
+        <div Style="min-height: 20px;font-family: Helvetica, Arial, Sans-Serif;font-size: 12px;line-height: 1.5; padding-bottom:10px;">{! Opportunity.Evaluation_Drop_Down__c}  </div>
+   
+   
+     </div>
+        
+     
+        
+    </body>
+
+
+</apex:page>

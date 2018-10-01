@@ -1,0 +1,105 @@
+<apex:page standardController="opportunity" renderAs="pdf" showHeader="false"   standardStylesheets="false" sidebar="false" applyHtmlTag="false"
+    applyBodyTag="false" docType="html-5.0" >
+   
+ <head>
+     
+    <style>
+   @page 
+{
+    size: 10.1cm 7.6cm  ;     
+}  
+    
+  </style>   
+     
+    </head>
+    
+    
+   
+    
+    <body Style="clear: both;padding:0;margin: 0 auto;">
+    <page >
+    
+    
+
+<table Style="width:auto; border:1px solid #000000;">
+  
+  <tr>
+    <td  Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Work Order#</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;">{! Opportunity.Work_Order__c}</td>
+    
+  </tr>
+  <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Date Entered:</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;"><apex:outputText value="{0,date,MM/dd/yy}"> 
+          <apex:param value="{!Opportunity.Date_Entered__c}" /> </apex:outputText> </td>
+    
+  </tr>
+  
+  
+  
+  
+  <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Customer PO:</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;" ><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Customer_PO__c),'\\\n','<br />')}"  escape="false"/></td>
+    
+  </tr>
+    <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Original Warranty Date</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;" ><apex:outputField value="{! Opportunity.Original_Warranty_Date__c} " /></td>
+    </tr>
+    <tr>
+        <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Warranty :</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;" ><apex:outputField value="{! Opportunity.Warranty__c} " /></td>
+    
+    
+    
+  </tr>
+  <tr>
+  
+  <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;"> End User/Re Seller</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;" ><apex:outputField value="{! Opportunity.End_user_or_Reseller__c} " /></td>
+    
+    </tr>
+  
+    <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Company Name: </td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;" ><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Account.Name),'\\\n','<br />')}"  escape="false"/></td>
+    
+  </tr>
+  
+  <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Unit</td>
+    
+    
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Unit__c),'\\\n','<br />')}"  escape="false"/> </td>
+    
+  </tr>
+  
+  <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Serial Number</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Serial__c),'\\\n','<br />')}"  escape="false"/> </td>
+    
+  </tr>
+  
+  <tr>
+    <td Style="line-height: 1.5;     width: 50%; color: #16325c;-webkit-tap-highlight-color: transparent;font-family: Helvetica, Arial, Sans-Serif;font-weight: 25px;padding-left: 45px;font-size: 9px;">Repair/ Sale</td>
+    <td Style="font-family: Helvetica, Arial, Sans-Serif;font-size: 9px;  color: #000000 ;width : 50%;">{!Opportunity.Repair_Sale_Wrnty__c}</td>
+    
+  </tr>
+  
+  
+  
+  
+ 
+</table>
+
+        
+        
+
+      </page>  
+        
+        
+    </body>
+
+
+</apex:page>

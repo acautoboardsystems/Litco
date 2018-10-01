@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <compactLayoutAssignment>New_Awesome_Companct_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>New_Awesome_Companct_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>CloseDate</fields>
+        <fields>Amount</fields>
+        <fields>OwnerId</fields>
+        <label>New Awesome Compact Layout</label>
+    </compactLayouts>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <fields>
+        <fullName>Accessories__c</fullName>
+        <externalId>false</externalId>
+        <label>Accessories</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account_Number_for_Shipping__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Number for Shipping</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Amount</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Approved_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved By</label>
+        <length>255</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approved_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Auto_Work_Order_Formula__c</fullName>
+        <displayFormat>WO#-{00}</displayFormat>
+        <externalId>false</externalId>
+        <label>Auto Work Order Formula</label>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Budget_Confirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Budget Confirmed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CloseDate</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ContractId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_PO__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer PO</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Loading__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This filed is used for generating Auto Work order Number</description>
+        <externalId>false</externalId>
+        <label>Data Loading</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Date_Entered__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Entered</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Quoted__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Quoted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Shipped__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Shipped</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Discovery_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Discovery Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Drop_Ship__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Drop Ship</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>End_user_or_Reseller__c</fullName>
+        <externalId>false</externalId>
+        <label>End user or Re seller</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>End User</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Re seller</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Evaluated_By_Drop_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluated By</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Technicians</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Evaluated_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluated By(N)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Evaluated_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluated Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Evaluation_Drop_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluation Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Repairable Standard</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Repairable Moderate</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Repairable Extensive</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Unrepairable Outright</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Unrepairable Exchange</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Unrepairable Use for Parts Only</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Evaluation__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluation</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ExpectedRevenue</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>How_Shipped_Drop_box__c</fullName>
+        <externalId>false</externalId>
+        <label>How Shipped</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FedEx Same Day cross-country with hours</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Same Day cross-city within hours</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx First Overnight- First thing NBD morning</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Priority Overnight – NBD morning</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Standard Overnight – NBD Afternoon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx 2Day A.M.- 2 BD morning</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx 2Day – 2 BD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Saver – 3 BD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Ground- 1-7 BD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Express International to Canada</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx International Next Flight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx First Overnight Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx 1Day Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx 2Day Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx 3Day Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Express Multi-weight pricing</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx International Priority Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx International Economy Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>FedEx Custom Critical Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS Express Critical – Same Day</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS NDA Early- NBD by 8 am</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS NDA – NBD by 10:30 am</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS NDA Saver – NBD by 3 pm</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS 2nd Day Air A.M.- 2 BD by 10:30 am</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS 2nd Day Air – 2 BD by end of day</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS 3 Day Select – 3 BD by end of day</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS Ground – 1-5 BD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS Ground with Freight Pricing- 1-5 BD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS NDA Freight- NBD by Noon or 5 pm</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS 2nd Day Air Freight- 2 BD by Noon or 5 pm</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS 3 Day Freight- 3-4 BD by 5 pm</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS Freight LTL - Varies by Service Selected</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS Worldwide Express Freight- 1-2 BD</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS International Express Critical – Best available Flight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS International Worldwide Express Plus- 1-3 BD by 8-9 am</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>UPS International Worldwide Express – 1-3 BD by 10:30 am or Noon</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Southwest Cargo</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>R&amp;L Carriers</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Yellow Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Southwestern Motor Freight</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Old Dominion</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Cap Logistics</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Greyhound</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Hand Delivery</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Uber</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>How_Shipped__c</fullName>
+        <externalId>false</externalId>
+        <label>How Shipped</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IqScore</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsPrivate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Litco_Contact_Drop_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Litco Contact</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Technicians</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Loss_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Loss Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lost to Competitor</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Budget / Lost Funding</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>No Decision / Non-Responsive</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>NextStep</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Original_Warranty_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Original Warranty Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Point_of_Contact_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Litco Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Probability</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ROI_Analysis_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ROI Analysis Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Repair_Sale_Wrnty__c</fullName>
+        <externalId>false</externalId>
+        <label>Repair/Sale/Warranty</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Unrepairable</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Repair</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sale</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Sale Exchange</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Warranty</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Warranty Exchange</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Loaner</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Exchange</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Repair_Sale__c</fullName>
+        <externalId>false</externalId>
+        <label>Repair/Sale/Wrnty</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Serial__c</fullName>
+        <externalId>false</externalId>
+        <label>Serial #</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ship_by_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Ship by Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Shipped__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Shipped</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Account_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Account Field</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shop_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Shop Notes</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Technician_Drop_Down__c</fullName>
+        <externalId>false</externalId>
+        <label>Litco Technician</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Technicians</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Technician_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Technician</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tested_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Tested By:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Chris</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Crystal</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Jason</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Jerry</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Julian</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Mike</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Norbert</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Richard</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                    <fullName>Vince</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TotalOpportunityQuantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Unit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Warranty__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Warranty</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Work_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllOpportunities</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Work_Order__c</columns>
+        <columns>Unit__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Repair_Sale_Wrnty__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Date_Shipped__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.PROBABILITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Work Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingNextMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>NEXT_MONTH</value>
+        </filters>
+        <label>Closing Next Month</label>
+    </listViews>
+    <listViews>
+        <fullName>ClosingThisMonth</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>Closing This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>Customer_Purchase_Order</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9</booleanFilter>
+        <columns>Work_Order__c</columns>
+        <columns>Customer_PO__c</columns>
+        <columns>Unit__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Date_Quoted__c</columns>
+        <columns>Approved__c</columns>
+        <columns>Approved_Date__c</columns>
+        <columns>Technician_Text__c</columns>
+        <columns>Date_Shipped__c</columns>
+        <columns>Ship_by_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Customer_PO__c</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </filters>
+        <filters>
+            <field>Unit__c</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Date_Quoted__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Approved__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Approved_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Ship_by_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Shipped__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Completed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Customer Purchase Order</label>
+    </listViews>
+    <listViews>
+        <fullName>Default_Opportunity_Pipeline</fullName>
+        <booleanFilter>(1 OR 2)</booleanFilter>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>Opportunity Pipeline</label>
+    </listViews>
+    <listViews>
+        <fullName>Last_Month_Orders</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Date_Entered__c</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Ship_by_Date__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ship_by_Date__c</field>
+            <operation>equals</operation>
+            <value>LAST_MONTH</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_MONTH</value>
+        </filters>
+        <label>Last Month Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpportunities</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Opportunities</label>
+    </listViews>
+    <listViews>
+        <fullName>NewThisWeek</fullName>
+        <columns>Work_Order__c</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Unit__c</columns>
+        <columns>Serial__c</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Ship_by_Date__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Work_Orders</fullName>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Work_Order__c</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Repair_Sale_Wrnty__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>Date_Shipped__c</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Completed__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Shipped__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Open Work Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>This_Month_Orders</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>Ship_by_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Ship_by_Date__c</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSE_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_MONTH</value>
+        </filters>
+        <label>This Month Orders</label>
+    </listViews>
+    <listViews>
+        <fullName>Warranty</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+        <columns>Date_Entered__c</columns>
+        <columns>Work_Order__c</columns>
+        <columns>Warranty__c</columns>
+        <columns>Unit__c</columns>
+        <columns>Customer_PO__c</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>Approved__c</columns>
+        <columns>Approved_Date__c</columns>
+        <columns>Ship_by_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Customer_PO__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Unit__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.AMOUNT</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Approved__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Approved_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Ship_by_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Date_Quoted__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Warranty__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Warranty</label>
+    </listViews>
+    <listViews>
+        <fullName>Won</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>OPPORTUNITY.WON</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Won</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Work_Order__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Unit__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Serial__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.CLOSE_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Work_Order__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Unit__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Serial__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Unit__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Serial__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Unit__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Serial__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Repair_Sale_Wrnty__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Work_Order__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.STAGE_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date_Shipped__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <webLinks>
+        <fullName>Customer_Report</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Customer Report</masterLabel>
+        <openType>newWindow</openType>
+        <page>CustomerReport</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>First</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>&lt;&lt;</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/21.0/connection.js&quot;)}
+
+var myquery = &quot;SELECT Id FROM Opportunity WHERE Work_Order__c = &apos;WO#-01&apos; limit 1&quot;; 
+
+result = sforce.connection.query(myquery); 
+records = result.getArray(&quot;records&quot;);
+if(records != &apos;&apos;){
+window.location.href = &apos;/&apos;+records[0].Id ;
+}
+else{
+var str = &apos;{!Opportunity.Work_Order__c}&apos;;
+var str_array = str.split(&apos;-&apos;);
+for(var i = 0; i &lt; str_array.length; i++) { 
+   str_array[i] = str_array[i].replace(/^\s*/, &quot;&quot;).replace(/\s*$/, &quot;&quot;); 
+}
+str_array[1]=&quot;1&quot;
+do{
+str_array[1]=(Number(str_array[1])+1);
+if((Number(str_array[1]))&lt;10)
+var strNew = str_array[0]+&apos;-0&apos;+(Number(str_array[1])); 
+else
+var strNew = str_array[0]+-+(Number(str_array[1])); 
+var myquery = &quot;SELECT Id FROM Opportunity WHERE Work_Order__c = &apos;&quot; + strNew + &quot;&apos; limit 1&quot;; 
+result = sforce.connection.query(myquery); 
+records = result.getArray(&quot;records&quot;);
+}while(records==&apos;undefined&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Next</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>&gt;</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/21.0/connection.js&quot;)}
+var str = &apos;{!Opportunity.Work_Order__c}&apos;;
+var str_array = str.split(&apos;-&apos;);
+for(var i = 0; i &lt; str_array.length; i++) { 
+   str_array[i] = str_array[i].replace(/^\s*/, &quot;&quot;).replace(/\s*$/, &quot;&quot;); 
+}
+if((Number(str_array[1])&lt;9))
+var strNew = str_array[0]+&apos;-0&apos;+(Number(str_array[1])+1);
+else
+var strNew = str_array[0]+-+(Number(str_array[1])+1); 
+var myquery = &quot;SELECT Id FROM Opportunity WHERE Work_Order__c = &apos;&quot; + strNew + &quot;&apos; limit 1&quot;;
+result = sforce.connection.query(myquery); 
+records = result.getArray(&quot;records&quot;);
+
+if(records != &apos;&apos;){
+window.location.href = &apos;/&apos;+records[0].Id ;
+}
+else { 
+    alert(&apos;There is no record with work order value &apos;+strNew);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Previous</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Previous</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/21.0/connection.js&quot;)}
+var str = &apos;{!Opportunity.Work_Order__c}&apos;;
+var str_array = str.split(&apos;-&apos;);
+for(var i = 0; i &lt; str_array.length; i++) { 
+   str_array[i] = str_array[i].replace(/^\s*/, &quot;&quot;).replace(/\s*$/, &quot;&quot;); 
+}
+if((Number(str_array[1]))&lt;11)
+var strNew = str_array[0]+&apos;-0&apos;+(Number(str_array[1])-1); 
+else
+var strNew = str_array[0]+-+(Number(str_array[1])-1); 
+var myquery = &quot;SELECT Id FROM Opportunity WHERE Work_Order__c = &apos;&quot; + strNew + &quot;&apos; limit 1&quot;;
+result = sforce.connection.query(myquery); 
+records = result.getArray(&quot;records&quot;); 
+if(records != &apos;&apos;){
+window.location.href = &apos;/&apos;+records[0].Id ;
+}
+else { 
+    alert(&apos;There is no record with work order value &apos;+strNew);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Shop_Report</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Shop Report</masterLabel>
+        <openType>newWindow</openType>
+        <page>ShopReport</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>Tag_Label</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Tag Label</masterLabel>
+        <openType>newWindow</openType>
+        <page>TabLabel</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>Test_Vf</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Test Vf</masterLabel>
+        <openType>newWindow</openType>
+        <page>Test</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>testnext</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>testnext</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/21.0/connection.js&quot;)}
+var str = &apos;{!Opportunity.Work_Order__c}&apos;;
+var str_array = str.split(&apos;-&apos;);
+for(var i = 0; i &lt; str_array.length; i++) { 
+   str_array[i] = str_array[i].replace(/^\s*/, &quot;&quot;).replace(/\s*$/, &quot;&quot;); 
+}
+if((Number(str_array[1])&lt;9))
+var strNew = str_array[0]+&apos;-0&apos;+(Number(str_array[1])+1);
+else
+var strNew = str_array[0]+-+(Number(str_array[1])+1); 
+var myquery = &quot;SELECT Id FROM Opportunity WHERE Work_Order__c = &apos;&quot; + strNew + &quot;&apos; limit 1&quot;;
+result = sforce.connection.query(myquery); 
+records = result.getArray(&quot;records&quot;);
+
+if(records != &apos;&apos;){
+window.location.href = &apos;/&apos;+records[0].Id ;
+}
+else { 
+    alert(&apos;There is no record with work order value &apos;+strNew);
+}</url>
+    </webLinks>
+</CustomObject>

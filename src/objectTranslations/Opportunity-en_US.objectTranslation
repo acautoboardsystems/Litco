@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Work Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Work Orders</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Quoted Price</value>
+        </caseValues>
+        <name>amount_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Access</value>
+        </caseValues>
+        <name>opportunity_access</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Access Level</value>
+        </caseValues>
+        <name>opportunity_access_level</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Alert</value>
+        </caseValues>
+        <name>opportunity_alert</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Amount</value>
+        </caseValues>
+        <name>opportunity_amount</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order-based Briefcase</value>
+        </caseValues>
+        <name>opportunity_based_briefcase</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Close Date</value>
+        </caseValues>
+        <name>opportunity_close_date</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Closed</value>
+        </caseValues>
+        <name>opportunity_closed</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Competitor</value>
+        </caseValues>
+        <name>opportunity_competitor</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Competitor Report</value>
+        </caseValues>
+        <name>opportunity_competitor_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Contact</value>
+        </caseValues>
+        <name>opportunity_contact</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Contact Report</value>
+        </caseValues>
+        <name>opportunity_contact_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Contact Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Contact Roles</value>
+        </caseValues>
+        <name>opportunity_contact_role</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Creator</value>
+        </caseValues>
+        <name>opportunity_creator</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Currency</value>
+        </caseValues>
+        <name>opportunity_currency</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Description</value>
+        </caseValues>
+        <name>opportunity_description</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Detail Page</value>
+        </caseValues>
+        <name>opportunity_detail_page</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Division</value>
+        </caseValues>
+        <name>opportunity_division</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Edit</value>
+        </caseValues>
+        <name>opportunity_edit</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Fields</value>
+        </caseValues>
+        <name>opportunity_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Field History</value>
+        </caseValues>
+        <name>opportunity_field_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Field History ID</value>
+        </caseValues>
+        <name>opportunity_field_history_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Field History Report</value>
+        </caseValues>
+        <name>opportunity_field_history_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Forecast</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Forecasts</value>
+        </caseValues>
+        <name>opportunity_forecast</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Forecast Category</value>
+        </caseValues>
+        <name>opportunity_forecast_category</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Forecast Edit</value>
+        </caseValues>
+        <name>opportunity_forecast_edit</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order History</value>
+        </caseValues>
+        <name>opportunity_history</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order History ID</value>
+        </caseValues>
+        <name>opportunity_history_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order History Information</value>
+        </caseValues>
+        <name>opportunity_history_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order History Report</value>
+        </caseValues>
+        <name>opportunity_history_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order ID</value>
+        </caseValues>
+        <name>opportunity_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Info</value>
+        </caseValues>
+        <name>opportunity_info</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Information</value>
+        </caseValues>
+        <name>opportunity_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Lead Source</value>
+        </caseValues>
+        <name>opportunity_lead_source</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Line Item</value>
+        </caseValues>
+        <name>opportunity_line_item</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Line Item Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Line Item Fields</value>
+        </caseValues>
+        <name>opportunity_line_item_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Line Item ID</value>
+        </caseValues>
+        <name>opportunity_line_item_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Names</value>
+        </caseValues>
+        <name>opportunity_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Owner</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Owners</value>
+        </caseValues>
+        <name>opportunity_owner</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Owner Alias</value>
+        </caseValues>
+        <name>opportunity_owner_alias</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Owner Email</value>
+        </caseValues>
+        <name>opportunity_owner_email</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Partner Report</value>
+        </caseValues>
+        <name>opportunity_partner_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Picklists</value>
+        </caseValues>
+        <name>opportunity_picklists</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Pipeline</value>
+        </caseValues>
+        <name>opportunity_pipeline</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Pipeline Trend</value>
+        </caseValues>
+        <name>opportunity_pipeline_trend</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Product Name</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Product Names</value>
+        </caseValues>
+        <name>opportunity_product_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Quantity</value>
+        </caseValues>
+        <name>opportunity_quantity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Record Types</value>
+        </caseValues>
+        <name>opportunity_record_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Reports</value>
+        </caseValues>
+        <name>opportunity_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Schedule Report</value>
+        </caseValues>
+        <name>opportunity_schedule_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Source</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Sources</value>
+        </caseValues>
+        <name>opportunity_source</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Stage</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Stages</value>
+        </caseValues>
+        <name>opportunity_stage</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Stage Duration Report</value>
+        </caseValues>
+        <name>opportunity_stage_duration_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Stage ID</value>
+        </caseValues>
+        <name>opportunity_stage_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Stage Name</value>
+        </caseValues>
+        <name>opportunity_stage_name</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Stage Status</value>
+        </caseValues>
+        <name>opportunity_stage_status</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Status</value>
+        </caseValues>
+        <name>opportunity_status</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Teams</value>
+        </caseValues>
+        <name>opportunity_team</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Team Members</value>
+        </caseValues>
+        <name>opportunity_team_member</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Team Member Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Team Member Fields</value>
+        </caseValues>
+        <name>opportunity_team_member_field</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Team Member ID</value>
+        </caseValues>
+        <name>opportunity_team_member_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Orders with Oppportunity Teams and Products Report</value>
+        </caseValues>
+        <name>opportunity_team_product_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Team Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Team Reports</value>
+        </caseValues>
+        <name>opportunity_team_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Territories</value>
+        </caseValues>
+        <name>opportunity_territory</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Territory</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Territories</value>
+        </caseValues>
+        <name>opportunity_territory2</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Territory</value>
+        </caseValues>
+        <name>opportunity_territory_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Trend</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Trends</value>
+        </caseValues>
+        <name>opportunity_trend</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Trend Information</value>
+        </caseValues>
+        <name>opportunity_trend_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Trend Report</value>
+        </caseValues>
+        <name>opportunity_trend_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order Type</value>
+        </caseValues>
+        <name>opportunity_type</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Order View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Work Order Views</value>
+        </caseValues>
+        <name>opportunity_view</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Accessories --></label>
+        <name>Accessories__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Number for Shipping --></label>
+        <name>Account_Number_for_Shipping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved By --></label>
+        <name>Approved_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Date --></label>
+        <name>Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auto Work Order Formula --></label>
+        <name>Auto_Work_Order_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Confirmed --></label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed --></label>
+        <name>Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer PO --></label>
+        <name>Customer_PO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Loading --></label>
+        <name>Data_Loading__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Entered --></label>
+        <name>Date_Entered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Quoted --></label>
+        <name>Date_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Shipped --></label>
+        <name>Date_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery Completed --></label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drop Ship --></label>
+        <name>Drop_Ship__c</name>
+    </fields>
+    <fields>
+        <label><!-- End user or Re seller --></label>
+        <name>End_user_or_Reseller__c</name>
+        <picklistValues>
+            <masterLabel>End User</masterLabel>
+            <translation><!-- End User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re seller</masterLabel>
+            <translation><!-- Re seller --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluated By --></label>
+        <name>Evaluated_By_Drop_Down__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluated By(N) --></label>
+        <name>Evaluated_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluated Date --></label>
+        <name>Evaluated_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Status --></label>
+        <name>Evaluation_Drop_Down__c</name>
+        <picklistValues>
+            <masterLabel>Repairable Extensive</masterLabel>
+            <translation><!-- Repairable Extensive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repairable Moderate</masterLabel>
+            <translation><!-- Repairable Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repairable Standard</masterLabel>
+            <translation><!-- Repairable Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unrepairable Exchange</masterLabel>
+            <translation><!-- Unrepairable Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unrepairable Outright</masterLabel>
+            <translation><!-- Unrepairable Outright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unrepairable Use for Parts Only</masterLabel>
+            <translation><!-- Unrepairable Use for Parts Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluation --></label>
+        <name>Evaluation__c</name>
+    </fields>
+    <fields>
+        <label><!-- How Shipped --></label>
+        <name>How_Shipped_Drop_box__c</name>
+        <picklistValues>
+            <masterLabel>Cap Logistics</masterLabel>
+            <translation><!-- Cap Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx 1Day Freight</masterLabel>
+            <translation><!-- FedEx 1Day Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx 2Day A.M.- 2 BD morning</masterLabel>
+            <translation><!-- FedEx 2Day A.M.- 2 BD morning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx 2Day Freight</masterLabel>
+            <translation><!-- FedEx 2Day Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx 2Day – 2 BD</masterLabel>
+            <translation><!-- FedEx 2Day – 2 BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx 3Day Freight</masterLabel>
+            <translation><!-- FedEx 3Day Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Custom Critical Freight</masterLabel>
+            <translation><!-- FedEx Custom Critical Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Express International to Canada</masterLabel>
+            <translation><!-- FedEx Express International to Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Express Multi-weight pricing</masterLabel>
+            <translation><!-- FedEx Express Multi-weight pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx First Overnight Freight</masterLabel>
+            <translation><!-- FedEx First Overnight Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx First Overnight- First thing NBD morning</masterLabel>
+            <translation><!-- FedEx First Overnight- First thing NBD morning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Ground- 1-7 BD</masterLabel>
+            <translation><!-- FedEx Ground- 1-7 BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx International Economy Freight</masterLabel>
+            <translation><!-- FedEx International Economy Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx International Next Flight</masterLabel>
+            <translation><!-- FedEx International Next Flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx International Priority Freight</masterLabel>
+            <translation><!-- FedEx International Priority Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Priority Overnight – NBD morning</masterLabel>
+            <translation><!-- FedEx Priority Overnight – NBD morning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Same Day cross-city within hours</masterLabel>
+            <translation><!-- FedEx Same Day cross-city within hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Same Day cross-country with hours</masterLabel>
+            <translation><!-- FedEx Same Day cross-country with hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Saver – 3 BD</masterLabel>
+            <translation><!-- FedEx Saver – 3 BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx Standard Overnight – NBD Afternoon</masterLabel>
+            <translation><!-- FedEx Standard Overnight – NBD Afternoon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greyhound</masterLabel>
+            <translation><!-- Greyhound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand Delivery</masterLabel>
+            <translation><!-- Hand Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old Dominion</masterLabel>
+            <translation><!-- Old Dominion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;L Carriers</masterLabel>
+            <translation><!-- R&amp;L Carriers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest Cargo</masterLabel>
+            <translation><!-- Southwest Cargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwestern Motor Freight</masterLabel>
+            <translation><!-- Southwestern Motor Freight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 2nd Day Air A.M.- 2 BD by 10:30 am</masterLabel>
+            <translation><!-- UPS 2nd Day Air A.M.- 2 BD by 10:30 am --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 2nd Day Air Freight- 2 BD by Noon or 5 pm</masterLabel>
+            <translation><!-- UPS 2nd Day Air Freight- 2 BD by Noon or 5 pm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 2nd Day Air – 2 BD by end of day</masterLabel>
+            <translation><!-- UPS 2nd Day Air – 2 BD by end of day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 3 Day Freight- 3-4 BD by 5 pm</masterLabel>
+            <translation><!-- UPS 3 Day Freight- 3-4 BD by 5 pm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS 3 Day Select – 3 BD by end of day</masterLabel>
+            <translation><!-- UPS 3 Day Select – 3 BD by end of day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Express Critical – Same Day</masterLabel>
+            <translation><!-- UPS Express Critical – Same Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Freight LTL - Varies by Service Selected</masterLabel>
+            <translation><!-- UPS Freight LTL - Varies by Service Selected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Ground with Freight Pricing- 1-5 BD</masterLabel>
+            <translation><!-- UPS Ground with Freight Pricing- 1-5 BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Ground – 1-5 BD</masterLabel>
+            <translation><!-- UPS Ground – 1-5 BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS International Express Critical – Best available Flight</masterLabel>
+            <translation><!-- UPS International Express Critical – Best available Flight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS International Worldwide Express Plus- 1-3 BD by 8-9 am</masterLabel>
+            <translation><!-- UPS International Worldwide Express Plus- 1-3 BD by 8-9 am --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS International Worldwide Express – 1-3 BD by 10:30 am or Noon</masterLabel>
+            <translation><!-- UPS International Worldwide Express – 1-3 BD by 10:30 am or Noon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS NDA Early- NBD by 8 am</masterLabel>
+            <translation><!-- UPS NDA Early- NBD by 8 am --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS NDA Freight- NBD by Noon or 5 pm</masterLabel>
+            <translation><!-- UPS NDA Freight- NBD by Noon or 5 pm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS NDA Saver – NBD by 3 pm</masterLabel>
+            <translation><!-- UPS NDA Saver – NBD by 3 pm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS NDA – NBD by 10:30 am</masterLabel>
+            <translation><!-- UPS NDA – NBD by 10:30 am --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Worldwide Express Freight- 1-2 BD</masterLabel>
+            <translation><!-- UPS Worldwide Express Freight- 1-2 BD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uber</masterLabel>
+            <translation><!-- Uber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow Freight</masterLabel>
+            <translation><!-- Yellow Freight --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- How Shipped --></label>
+        <name>How_Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Litco Contact --></label>
+        <name>Litco_Contact_Drop_Down__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loss Reason --></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation><!-- Lost to Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation><!-- No Budget / Lost Funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation><!-- No Decision / Non-Responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Original Warranty Date --></label>
+        <name>Original_Warranty_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Litco Contact --></label>
+        <name>Point_of_Contact_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROI Analysis Completed --></label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Repair/Sale/Warranty --></label>
+        <name>Repair_Sale_Wrnty__c</name>
+        <picklistValues>
+            <masterLabel>Exchange</masterLabel>
+            <translation><!-- Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loaner</masterLabel>
+            <translation><!-- Loaner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale</masterLabel>
+            <translation><!-- Sale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale Exchange</masterLabel>
+            <translation><!-- Sale Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unrepairable</masterLabel>
+            <translation><!-- Unrepairable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty</masterLabel>
+            <translation><!-- Warranty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warranty Exchange</masterLabel>
+            <translation><!-- Warranty Exchange --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Repair/Sale/Wrnty --></label>
+        <name>Repair_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial # --></label>
+        <name>Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship by Date --></label>
+        <name>Ship_by_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipped --></label>
+        <name>Shipped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Account Field --></label>
+        <name>Shipping_Account_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shop Notes --></label>
+        <name>Shop_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Litco Technician --></label>
+        <name>Technician_Drop_Down__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technician --></label>
+        <name>Technician_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tested By: --></label>
+        <name>Tested_By__c</name>
+        <picklistValues>
+            <masterLabel>Chris</masterLabel>
+            <translation><!-- Chris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crystal</masterLabel>
+            <translation><!-- Crystal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason</masterLabel>
+            <translation><!-- Jason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jerry</masterLabel>
+            <translation><!-- Jerry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Julian</masterLabel>
+            <translation><!-- Julian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mike</masterLabel>
+            <translation><!-- Mike --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norbert</masterLabel>
+            <translation><!-- Norbert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richard</masterLabel>
+            <translation><!-- Richard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vince</masterLabel>
+            <translation><!-- Vince --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit --></label>
+        <name>Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty --></label>
+        <name>Warranty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Order --></label>
+        <name>Work_Order__c</name>
+    </fields>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Evaluation --></label>
+            <section>Evaluation</section>
+        </sections>
+        <sections>
+            <label><!-- Old Fields --></label>
+            <section>Old Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Customer_Report --></label>
+        <name>Customer_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- First --></label>
+        <name>First</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Next --></label>
+        <name>Next</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Previous --></label>
+        <name>Previous</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Shop_Report --></label>
+        <name>Shop_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Tag_Label --></label>
+        <name>Tag_Label</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Vf --></label>
+        <name>Test_Vf</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- testnext --></label>
+        <name>testnext</name>
+    </webLinks>
+</CustomObjectTranslation>

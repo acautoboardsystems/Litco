@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Paternal &amp; Maternal Last Name</value>
+        </caseValues>
+        <name>last_name_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Paternal &amp; Maternal Last Name (Local)</value>
+        </caseValues>
+        <name>last_name_local_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Applications --></label>
+        <name>Applications__c</name>
+        <picklistValues>
+            <masterLabel>Automotive</masterLabel>
+            <translation><!-- Automotive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Etc</masterLabel>
+            <translation><!-- Etc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gantry</masterLabel>
+            <translation><!-- Gantry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machining</masterLabel>
+            <translation><!-- Machining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material Handling</masterLabel>
+            <translation><!-- Material Handling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal Forming</masterLabel>
+            <translation><!-- Metal Forming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Packaging</masterLabel>
+            <translation><!-- Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printing</masterLabel>
+            <translation><!-- Printing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robotics</masterLabel>
+            <translation><!-- Robotics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servo Driven Roll Feeder Upgrade</masterLabel>
+            <translation><!-- Servo Driven Roll Feeder Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stamping</masterLabel>
+            <translation><!-- Stamping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Processing</masterLabel>
+            <translation><!-- Web Processing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Maternal Last Name --></label>
+        <name>Maternal_Last_Name__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

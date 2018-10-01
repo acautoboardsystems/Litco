@@ -1,0 +1,301 @@
+<apex:page standardController="opportunity" showHeader="false"  renderAs="pdf" standardStylesheets="false" sidebar="false" applyHtmlTag="false"
+        applyBodyTag="false"  lightningStylesheets="true">
+       
+    <head>
+         <style type="text/css">
+    #wrap {
+       width:100%;
+       {/*margin:0 auto;*/}
+       
+       
+    }
+    #left_col {
+       float:left;
+       width:30%;
+       
+       
+
+    }
+    #right_col {
+       float:left;
+       width:30%;
+       margin-left:8%;
+       
+       }
+
+    .middle-col{
+                
+    float:right;
+       width:30%;
+       
+    }
+
+
+     .mincontent-h {
+        min-height: 20px;
+             font-family: Helvetica, Arial, Sans-Serif;
+             font-size: 15px; 
+              line-height: 1.5;
+
+                
+            }
+             hr{ border-top: none; border-bottom: 10px solid #E31936 !important; }
+             
+            .RightAlign{
+                float: left;
+            }
+            .headerRight{
+                float: right;
+                font-family: "Times New Roman";
+             }
+             
+             .fontnew{
+             line-height: 1.5;
+            
+            color: #16325c;
+            -webkit-tap-highlight-color: transparent;
+
+             font-family: Helvetica, Arial, Sans-Serif;
+             
+             font-weight: 20px;
+             font-size:15px;
+             }
+             .font2{
+                
+                         font-family: Helvetica, Arial, Sans-Serif;
+             }
+             .toppadding
+             {
+             margin-top:15px;
+             }
+             .fieldbottompadding
+             {
+             padding-bottom:10px;
+             }
+             .tittle
+             {
+              font-family: Helvetica, Arial, Sans-Serif;
+             color: #16325c;
+             text-transform: uppercase;
+              
+             }
+             .marRight
+             {
+                 padding-right: 200px;
+                 
+             
+             }
+             .clearfix
+             {
+             clear:both;
+             
+             }
+             
+             .unitFieldClass
+             {
+                 font-size: 10px;
+             }
+             .25MorginTop
+             {
+               margin-top:25px;  
+             }
+             
+             
+             
+             
+            
+             
+    </style>
+         
+         
+        </head>
+        
+        <header>
+            <article></article>
+            <div> 
+                
+            
+       
+         <apex:image id="logo1" url="{!$Resource.UpdatedLogo}" />
+
+            
+           <h2 style="float:right" class="toppadding tittle"> Customer Report </h2> 
+                </div> 
+        <hr/>
+        </header>
+        
+        
+        
+        
+        
+        <body>
+           
+            
+      <div id="wrap">
+        <div id="left_col" >
+           <div class="fontnew"> Work Order# 
+            </div>
+               <div class="mincontent-h fieldbottompadding ">{! Opportunity.Work_Order__c} 
+            </div>
+            
+            
+          <div class="fontnew">  Company Name </div>
+            <div class="mincontent-h fieldbottompadding">{! Opportunity.Account.Name} </div>
+            
+             <div class="fontnew"> Unit </div>
+             <!--<div style="width: 100% ">
+          <div class="mincontent-h fieldbottompadding "> <apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Unit__c),'\\\n','<br />')}"  escape="false"/>
+      </div></div> -->
+          
+         <!-- <div class="fontnew">  Serial Number</div>
+          <div class="mincontent-h fieldbottompadding"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Serial__c),'\\\n','<br />')}"  escape="false"/>  </div> -->
+          
+           <div class="fontnew"> Litco Contact</div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputPanel >
+            
+            {!Opportunity.Litco_Contact_Drop_Down__c}
+                              </apex:outputPanel>  </div>
+                              
+                              <div class="fontnew"> Litco  Technician   </div>
+          <div class="mincontent-h fieldbottompadding"> {!Opportunity.Technician_Drop_Down__c}</div>
+          
+          
+          
+           <div class="fontnew"> Warranty </div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{! Opportunity.Warranty__c}"/> </div>
+            
+            <div class="fontnew"> Original Warranty Date </div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{! Opportunity.Original_Warranty_Date__c}"/> </div>
+           
+           
+          
+           
+           
+          
+              
+              
+          
+          
+         
+                  
+        </div>
+        <div id="right_col">
+          
+           
+            <div class="fontnew">   Date Entered </div>
+          <div class="mincontent-h fieldbottompadding"> <apex:outputText value="{0,date,MM/dd/yy}"> 
+              <apex:param value="{!Opportunity.Date_Entered__c}" /> </apex:outputText>   </div>
+              
+              <div class="fontnew">  Customer PO</div>
+           <!-- <div class="mincontent-h fieldbottompadding"><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Customer_PO__c),'\\\n','<br />')}"  
+           escape="false"/>  </div> -->
+            
+            <div class="fontnew">  Quoted Price </div>
+           <div class="mincontent-h fieldbottompadding"> <apex:outputText value="{0, Number, Currency}" > 
+              <apex:param value="{!Opportunity.Amount}" />
+                </apex:outputText></div>
+             
+            
+          
+            <div class="fontnew">  Date Quoted</div>
+            
+            <div class="mincontent-h fieldbottompadding">  <apex:outputText value="{0,date,MM/dd/yy}"> 
+              <apex:param value="{! Opportunity.Date_Quoted__c}" /> </apex:outputText>   </div>
+              
+              <div class="fontnew">   Date Shipped </div>
+          <div class="mincontent-h fieldbottompadding"><apex:outputText value="{0,date,MM/dd/yy}"> 
+              <apex:param value="{!Opportunity.Date_Shipped__c}" /> </apex:outputText>   </div>
+          
+              
+              
+           <div class="fontnew">  How Shipped  </div>
+          <div class="mincontent-h fieldbottompadding"> {!Opportunity.How_Shipped_Drop_box__c}</div>
+          
+          <div class="fontnew">  Drop Ship </div>
+          <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{!Opportunity.Drop_Ship__c}"/> </div>
+           
+          
+            
+          
+          
+              
+              
+            
+           
+            
+            
+            
+            
+            
+             
+           
+            
+    </div>         
+           <div class="middle-col">
+           
+           <div class="fontnew"> Shipping Account Field
+            </div>
+               <!-- <div class="mincontent-h fieldbottompadding "><apex:outputText style="white-space:pre;" value="{!SUBSTITUTE(JSENCODE(Opportunity.Shipping_Account_Field__c),'\\\n','<br />')}"  escape="false"/> 
+            </div> -->
+            
+            
+          <div class="fontnew"> Evaluation Status </div>
+            <div class="mincontent-h fieldbottompadding">{! Opportunity.Evaluation_Drop_Down__c}  </div>
+            
+            <div class="fontnew"> Approved By </div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{! Opportunity.Approved_By__c}"/> </div>
+            
+            
+            <div class="fontnew"> Shipped </div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{! Opportunity.Shipped__c}"/> </div>
+            
+            
+            <div class="fontnew"> Completed </div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{! Opportunity.Completed__c}"/> </div>
+            
+            
+            <div class="fontnew"> Repair/Sale</div>
+            <div class="mincontent-h fieldbottompadding">  {!Opportunity.Repair_Sale_Wrnty__c}</div>
+            
+            <div class="fontnew"> End User/Re Seller </div>
+            <div class="mincontent-h fieldbottompadding"><apex:outputfield value="{! Opportunity.End_user_or_Reseller__c}"/> </div>
+           
+             
+          
+           
+           
+           </div>
+            
+                        
+            
+        
+    </div>
+
+    <div class="clearfix">
+    </div>
+
+            
+            
+          <div style="25MorginTop"> 
+              
+              
+             <div class="fontnew">   Acessories  </div>
+          <div class="mincontent-h fieldbottompadding"> 
+            <apex:outputText escape="false"  value="{! Opportunity.Accessories__c}"/> </div>
+              
+               <div class="fontnew">   Comments  </div>
+          <div class="mincontent-h fieldbottompadding"> 
+            <apex:outputText escape="false"  value="{! Opportunity.Comments__c}"/> </div>
+            
+            
+            
+       
+       
+         </div>
+            
+         
+            
+        </body> 
+
+
+    </apex:page>
